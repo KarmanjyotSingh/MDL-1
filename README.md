@@ -25,7 +25,7 @@ the correct value which we are trying to predict
 - It is a measure of how much the value predicted by our model varies from the actual value , a **High Bias** describes huge variation of the predicted values from the actual value of the data set.
 - The following Plot describes the variation of the bias with the degree of the polynomial functions
 
-![Plot : Bias vs Degree of the polynomial](images/biasPlot.png)
+![Plot : Bias vs Degree of the polynomial](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/biasPlot.png)
 
 Plot : Bias vs Degree of the polynomial
 
@@ -36,11 +36,11 @@ Plot : Bias vs Degree of the polynomial
 - Variance is used to measure the spread of data . A higher value of variance means , a high variation of the predicted value around the actual value of the dataset.
 - Which is justified as , due to the increasing degree , and hence greater complex polynomial terms , and thus greater variation.
 
-![Plot : Variance vs Degree of polynomial](images/variancePlot.png)
+![Plot : Variance vs Degree of polynomial](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/variancePlot.png)
 
 Plot : Variance vs Degree of polynomial
 
-![Data : Bias and Variance of the trained models](images/Untitled.png)
+![Data : Bias and Variance of the trained models](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/Untitled.png)
 
 Data : Bias and Variance of the trained models
 
@@ -48,11 +48,11 @@ Data : Bias and Variance of the trained models
 
 - Irrespective of how good the model is trained , there always exist some error which can't be removed , which is attributed to the noise in the data ( i.e. the external parameters apart from the existing parameters in the data set that determine the output , and thus cause errors ).
 
-![Plot : irreducible error vs degree of polynomial](images/Irreducible.png)
+![Plot : irreducible error vs degree of polynomial](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/Irreducible.png)
 
 Plot : irreducible error vs degree of polynomial
 
-![Plot : Data , MSE and Irreducible error for given data set](images/dataMSEIRR.png)
+![Plot : Data , MSE and Irreducible error for given data set](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/dataMSEIRR.png)
 
 Plot : Data , MSE and Irreducible error for given data set
 
@@ -62,14 +62,14 @@ Plot : Data , MSE and Irreducible error for given data set
 - We could observe that , the bias and variance are minimized ( global minima ) for degree 3 (cubic ) polynomial , which thus is the **best fit** for the curve , which is also justified as for **degree = 3** , the value of MSE ( Mean Square Error ) is the least and hence , it is the best fit polynomial class function for our given data set . Thus best fit model will be of the type ax^3 + bx^2 + cx + d , whose coefficients could be determined using the training data set
 - As we see further , as the degree of polynomials increases , the generated model starts **over fitting** the training data , and thus performs poorly on the test data ( and hence high variance )
 
-![Plot : Variance and Squared Bias ](images/BiasVsVariance.png)
+![Plot : Variance and Squared Bias ](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/BiasVsVariance.png)
 
 Plot : Variance and Squared Bias 
 
-![Plot : MSE vs Degree of polynomial](images/MSEPlot.png)
+![Plot : MSE vs Degree of polynomial](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/MSEPlot.png)
 
 Plot : MSE vs Degree of polynomial
 
-![Figure : Actual value vs Predicted Model ](images/PredictedValue.png.png)
+![Figure : Actual value vs Predicted Model ](MDL%20-%20Assignment%201%20626e44f02cd9404eaa57be9808810c05/PredictedValue.png.png)
 
 Figure : Actual value vs Predicted Model
